@@ -53,5 +53,22 @@ a {
   text-align: left;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+} 
 
+.dedication {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: 'Pacifico', cursive;
+}

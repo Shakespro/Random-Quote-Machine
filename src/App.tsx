@@ -33,8 +33,10 @@ function App() {
   };
 
  return (
+ <div>
+ <h1>Sakhile Design Titans</h1> 
  <div className="background" style={{backgroundColor: randomColor, transition }}>
-   <div id="quote-box">
+   <div id="quote-box">  
     <div className="quote-content" style={{color: randomColor, transition}}>
     <h2 id="text">
       <FaQuoteLeft size="30" style={{marginRight: "10px"}}/>
@@ -66,6 +68,9 @@ function App() {
     </div>
   </div>
 </div>
+<h2 className="dedication">Special thanks: "Dudu Fihlela, Lwazi Fihlela, Victoria Dube, Sbo 'Ester' Msane"</h2>
+</div>
+
   ); 
 }
 
